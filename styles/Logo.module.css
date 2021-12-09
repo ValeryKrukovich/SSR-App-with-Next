@@ -1,0 +1,7 @@
+.logo {
+    color: var(--red);
+}
+
+.logo span {
+    font-weight: 900;
+}

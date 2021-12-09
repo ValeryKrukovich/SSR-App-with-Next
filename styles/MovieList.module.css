@@ -1,0 +1,17 @@
+.count-movies {
+    margin: 0 0 28px 0;
+}
+
+.count-movies span {
+    font-weight: 600;
+}
+
+.movielist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 56px;
+    row-gap: 50px;
+}

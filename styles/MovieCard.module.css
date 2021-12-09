@@ -1,0 +1,41 @@
+.movie__link {
+    display: block;
+    margin: 0 0 22px;
+}
+
+.movie__image {
+    display: block;
+}
+
+.movie__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-weight: 500;
+}
+
+.movie__head {
+    font-weight: 500;
+    margin: 0 0 8px;
+    font-size: 18px;
+    line-height: 22px;
+    opacity: 0.7;
+}
+
+.movie__text {
+    margin: 0;
+    font-size: 14px;
+    line-height: 17px;
+    opacity: 0.5;
+}
+
+.movie__year {
+    padding: 4px 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    opacity: 0.7;
+    color: var(--white);
+    border: 1px solid #979797;
+    border-radius: 4px;
+}
